@@ -6,7 +6,13 @@ import os
 import shutil
 import asyncio
 import zipfile
-import py7zr
+
+# Try importing py7zr, handle missing lib
+try:
+    import py7zr
+    HAS_7Z = True
+except ImportError:
+    HAS_7Z = False
 
 async def convert_archive(input_path: str, output_dir: str, target_format: str) -> dict:
     """Archive converter supporting ZIP, 7Z, TAR."""
@@ -25,12 +31,17 @@ def _process_archive(input_path: str, output_dir: str, target_format: str) -> di
             os.makedirs(extract_dir)
             
         try:
+            # EXTRACT
             if ext.lower() == '.zip':
                 with zipfile.ZipFile(input_path, 'r') as zip_ref:
                     zip_ref.extractall(extract_dir)
+                    
             elif ext.lower() == '.7z':
+                if not HAS_7Z:
+                    return {"success": False, "error": "7Z library not installed (Python 3.14 compatibility)"}
                 with py7zr.SevenZipFile(input_path, mode='r') as z:
                     z.extractall(path=extract_dir)
+                    
             elif ext.lower() in ['.tar', '.gz']:
                 import tarfile
                 with tarfile.open(input_path, 'r') as tar_ref:
@@ -38,10 +49,13 @@ def _process_archive(input_path: str, output_dir: str, target_format: str) -> di
             else:
                  return {"success": False, "error": f"Unsupported source format: {ext}"}
                  
+            # COMPRESS to TARGET
             if target_format == 'zip':
                 shutil.make_archive(output_path.replace('.zip', ''), 'zip', extract_dir)
                 
             elif target_format == '7z':
+                if not HAS_7Z:
+                    return {"success": False, "error": "7Z library not installed (Python 3.14 compatibility)"}
                 with py7zr.SevenZipFile(output_path, 'w') as z:
                     z.writeall(extract_dir, arcname='')
                     

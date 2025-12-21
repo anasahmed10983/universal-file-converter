@@ -1,0 +1,75 @@
+{
+    "title": "Evrensel Dönüştürücü",
+    "heroTitle": "Her Şeyi Dönüştür ⚡",
+    "heroSubtitle": "Güvenli, Hızlı ve Modern. Dosyalarınız cihazınızdan çıkmaz.",
+    "dropText": "Dosyaları Buraya Bırak",
+    "browseText": "veya seçmek için tıkla",
+    "features": {
+        "formats": {
+            "title": "65+ Format",
+            "desc": "Resim, Video, Ses, Belge, Arşiv."
+        },
+        "fast": {
+            "title": "Işık Hızında",
+            "desc": "GPU hızlandırmalı dönüştürme."
+        },
+        "private": {
+            "title": "Önce Gizlilik",
+            "desc": "%100 yerel, dosyalar sizde kalır."
+        },
+        "premium": {
+            "title": "Premium Kalite",
+            "desc": "Kalite kaybı olmadan optimize."
+        }
+    },
+    "buttons": {
+        "convert": "Dönüştür",
+        "converting": "Dönüştürülüyor...",
+        "download": "İndir",
+        "remove": "Kaldır",
+        "convertAll": "Hepsini Dönüştür",
+        "downloadAll": "Hepsini İndir (ZIP)",
+        "addFile": "+ Dosya Ekle",
+        "back": "← Geri",
+        "retry": "Tekrar Dene",
+        "convertAgain": "Başka Formata Dönüştür"
+    },
+    "applyAll": "Tümüne Uygula",
+    "groups": {
+        "image": "📸 Resim",
+        "video": "🎬 Video",
+        "audio": "🎵 Ses",
+        "document": "📄 Belge",
+        "pdf": "📕 PDF",
+        "archive": "📦 Arşiv",
+        "data": "📊 Veri"
+    },
+    "toasts": {
+        "ffmpegMissing": "⚠️ FFmpeg bulunamadı! Video dönüştürme devre dışı.",
+        "downloadStarted": "Toplu indirme başladı!",
+        "zipError": "Hata: Zip oluşturulamadı",
+        "connError": "Bağlantı hatası",
+        "converting": "dosya dönüştürülüyor...",
+        "noFiles": "Dönüştürülecek dosya yok",
+        "batchSuccess": "formatında ayarlandı",
+        "batchError": "bu dosya türlerine uygulanamaz",
+        "completed": "Tamamlandı!",
+        "pasting": "dosya yapıştırılıyor...",
+        "tooLarge": "çok büyük",
+        "duplicate": "zaten yüklü, atlanıyor...",
+        "fileRemoved": "kaldırıldı",
+        "error": "Hata",
+        "uploadFailed": "Yükleme başarısız",
+        "serverError": "Sunucu hatası",
+        "largeFile": "büyük dosya - zaman alabilir",
+        "zipping": "dosya zipleniyor...",
+        "noDownload": "İndirilecek dosya yok"
+    },
+    "status": {
+        "loading": "Yükleniyor...",
+        "converting": "Dönüştürülüyor...",
+        "success": "Başarılı",
+        "error": "Hata",
+        "waiting": "Bekliyor..."
+    }
+}

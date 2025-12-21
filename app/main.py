@@ -51,6 +51,19 @@ async def api_check_ffmpeg():
     exists, path = check_ffmpeg()
     return {"installed": exists, "path": path}
 
+@app.get("/api/languages")
+async def get_languages():
+    """Scan locales directory and return available languages."""
+    locales_dir = os.path.join(static_dir, "locales")
+    languages = []
+    if os.path.exists(locales_dir):
+        for f in os.listdir(locales_dir):
+            if f.endswith(".json"):
+                lang_code = os.path.splitext(f)[0]
+                languages.append(lang_code)
+    languages.sort()
+    return {"languages": languages}
+
 UPLOAD_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "temp_uploads")
 if not os.path.exists(UPLOAD_DIR):
     os.makedirs(UPLOAD_DIR)

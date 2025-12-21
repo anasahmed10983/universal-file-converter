@@ -1,0 +1,75 @@
+{
+    "title": "Universal Converter",
+    "heroTitle": "Convert Anything ⚡",
+    "heroSubtitle": "Secure, Fast and Modern. Your files never leave your device.",
+    "dropText": "Drop Files Here",
+    "browseText": "or click to browse",
+    "features": {
+        "formats": {
+            "title": "65+ Formats",
+            "desc": "Image, Video, Audio, Doc, Archive."
+        },
+        "fast": {
+            "title": "Lightning Fast",
+            "desc": "GPU accelerated conversion."
+        },
+        "private": {
+            "title": "Privacy First",
+            "desc": "100% local, files stay with you."
+        },
+        "premium": {
+            "title": "Premium Quality",
+            "desc": "Optimized without quality loss."
+        }
+    },
+    "buttons": {
+        "convert": "Convert",
+        "converting": "Converting...",
+        "download": "Download",
+        "remove": "Remove",
+        "convertAll": "Convert All",
+        "downloadAll": "Download All (ZIP)",
+        "addFile": "+ Add File",
+        "back": "← Back",
+        "retry": "Retry",
+        "convertAgain": "Convert Another Format"
+    },
+    "applyAll": "Apply All",
+    "groups": {
+        "image": "📸 Image",
+        "video": "🎬 Video",
+        "audio": "🎵 Audio",
+        "document": "📄 Document",
+        "pdf": "📕 PDF",
+        "archive": "📦 Archive",
+        "data": "📊 Data"
+    },
+    "toasts": {
+        "ffmpegMissing": "⚠️ FFmpeg not found! Video conversion disabled.",
+        "downloadStarted": "Batch download started!",
+        "zipError": "Error: Could not create Zip",
+        "connError": "Connection error",
+        "converting": "files converting...",
+        "noFiles": "No files to convert",
+        "batchSuccess": "format applied to files",
+        "batchError": "cannot be applied to these file types",
+        "completed": "Completed!",
+        "pasting": "files pasting...",
+        "tooLarge": "too large",
+        "duplicate": "already uploaded, skipping...",
+        "fileRemoved": "removed",
+        "error": "Error",
+        "uploadFailed": "Upload failed",
+        "serverError": "Server error",
+        "largeFile": "large file - may take a while",
+        "zipping": "files zipping...",
+        "noDownload": "No converted files to download"
+    },
+    "status": {
+        "loading": "Loading...",
+        "converting": "Converting...",
+        "success": "Success",
+        "error": "Error",
+        "waiting": "Waiting..."
+    }
+}

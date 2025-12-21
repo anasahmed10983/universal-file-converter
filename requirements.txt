@@ -6,6 +6,6 @@ pandas
 openpyxl
 PyPDF2
 python-docx
-py7zr
-pillow-heif
-cairosvg
+# py7zr
+# pillow-heif
+# cairosvg

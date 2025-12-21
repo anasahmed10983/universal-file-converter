@@ -26,3 +26,6 @@ Desktop.ini
 
 .vscode/
 *.code-workspace
+
+# Legacy Versions
+v1.1_Legacy/
